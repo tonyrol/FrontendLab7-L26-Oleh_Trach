@@ -1,0 +1,71 @@
+html,body {
+    height: 100%;
+}
+
+student-item {
+    border: solid 1px grey;
+    background-color: skyblue;
+    float: left;
+    width: 200px;
+    height: 300px;
+    margin: 10px 10px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+student-item img {
+    /*width: 50px;*/
+    margin: 30px 5px;
+    height: 150px;
+    border-radius: 150px;
+}
+
+student-item button {
+    margin-top: 20px;
+    width: 50px;
+    height: 20px;
+}
+
+student-item img:after {
+    display: table;
+    clear: both;
+    content: '';
+}
+
+student-item input {
+    width: 45%;
+}
+
+.info {
+    /*background-color: skyblue;*/
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.info img {
+    margin: 50px;
+}
+
+.info .name {
+    margin: 20px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.info ul {
+    text-align: left;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.info ul li {
+    margin-top: 10px;
+}
+
+.info p {
+    text-align: left;
+    margin: 0;
+}
